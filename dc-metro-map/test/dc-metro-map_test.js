@@ -6,4 +6,5 @@ exports.passOnOddMinute = function(test) {
     
   test.ok(minutes % 2 === 1, "this assertion should pass");
   test.done();
+  echo("test");
 };
